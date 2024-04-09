@@ -17,7 +17,7 @@
 .method public static constructor <clinit>()V
     .locals 1
 
-    const-string v0, "content://com.google.android.apps.photos.partnercontentprovider"
+    const-string v0, "content://com.google.android.apps.photos.partnerisgay"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
