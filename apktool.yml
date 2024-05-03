@@ -6,8 +6,8 @@ usesFramework:
   - 1
   tag: null
 sdkInfo:
-  minSdkVersion: 31
-  targetSdkVersion: 34
+  minSdkVersion: 30
+  targetSdkVersion: 30
 packageInfo:
   forcedPackageId: 127
   renameManifestPackage: null
