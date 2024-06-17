@@ -95,7 +95,7 @@
 
     move-object v2, v3
 
-    const-string v4, "ro.product.device"
+    const-string v4, "ro.product.product.device"
 
     const-string v5, "TARGET_DEVICE"
 
@@ -151,7 +151,7 @@
 
     move-object v6, v7
 
-    const-string v8, "ro.product.model"
+    const-string v8, "ro.product.product.model"
 
     const-string v9, "PRODUCT_DISPLAY_MODEL"
 
@@ -179,7 +179,7 @@
 
     move-object v8, v9
 
-    const-string v10, "ro.product.brand"
+    const-string v10, "ro.product.product.brand"
 
     const-string v11, "PRODUCT_BRAND"
 
@@ -193,7 +193,7 @@
 
     move-object v9, v10
 
-    const-string v11, "ro.product.manufacturer"
+    const-string v11, "ro.product.product.manufacturer"
 
     const-string v12, "PRODUCT_MANUFACTURER"
 
