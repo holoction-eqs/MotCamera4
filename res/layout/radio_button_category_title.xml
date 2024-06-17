@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_category_title_margin_top" android:layout_marginBottom="@dimen/settings_category_title_margin_bottom" android:layout_marginHorizontal="@dimen/settings_category_title_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/settings_preference_summary" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/settings_preference_background_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/settings_preference_background" />
+            <corners android:bottomLeftRadius="@dimen/settings_category_radius" android:bottomRightRadius="@dimen/settings_category_radius" />
+            <padding android:bottom="@dimen/settings_category_padding" />
+        </shape>
+    </item>
+</ripple>

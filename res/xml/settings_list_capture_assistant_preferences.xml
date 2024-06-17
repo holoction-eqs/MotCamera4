@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.camera.ui.controls_2020.settings.preferences.generic.RoundedSwitchPreference android:icon="@drawable/ic_grid" android:title="@string/main_setting_assistive_grid" android:key="@string/settings_list_capture_settings_grid_key" />
+    <com.motorola.camera.ui.controls_2020.settings.preferences.generic.RoundedSwitchPreference android:icon="@drawable/ic_leveler" android:title="@string/main_setting_leveler" android:key="@string/settings_list_capture_settings_leveler_key" />
+</PreferenceScreen>

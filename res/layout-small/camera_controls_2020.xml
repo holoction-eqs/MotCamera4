@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/controls_2020_layout" android:background="@android:color/transparent" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:focusedByDefault="true" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_viewfinder_top" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/guideline_viewfinder_top_offset" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/indicator_bar_small_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/guideline_viewfinder_top" layout="@layout/indicator_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

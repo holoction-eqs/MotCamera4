@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorola.tools.myui.dialog.AlertDialogLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/parentPanel" android:paddingTop="@dimen/myui_dialog_content_padding_top" android:paddingBottom="@dimen/myui_dialog_content_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/myui_alert_dialog_title_layout" />
+    <androidx.core.widget.NestedScrollView android:id="@id/contentPanel" android:fadingEdgeLength="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical">
+        <FrameLayout android:id="@id/contentContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+            <TextView android:textColor="?myui_color_on_surface_variant" android:id="@android:id/message" android:paddingLeft="@dimen/myui_dialog_message_padding_left" android:paddingRight="@dimen/myui_dialog_message_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/myui_dialog_message_padding_left" android:paddingEnd="@dimen/myui_dialog_message_padding_right" style="@style/TextAppearance.AppCompat.Small" />
+            <FrameLayout android:id="@id/customContent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include layout="@layout/myui_alert_dialog_button_layout" />
+</com.motorola.tools.myui.dialog.AlertDialogLayout>

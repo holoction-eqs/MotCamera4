@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/settings_dialog_margin" android:insetRight="@dimen/settings_dialog_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <solid android:color="@color/settings_preference_background" />
+        <corners android:radius="@dimen/settings_category_radius" />
+    </shape>
+</inset>

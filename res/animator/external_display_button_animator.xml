@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set>
+        <objectAnimator android:duration="@integer/external_display_fade_duration" android:repeatCount="5" android:repeatMode="reverse" android:valueFrom="1" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:duration="@integer/external_display_fade_duration" android:repeatCount="5" android:repeatMode="reverse" android:valueFrom="1" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleY" />
+    </set>
+</set>

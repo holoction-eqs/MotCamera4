@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/buttonPanel" android:paddingLeft="@dimen/myui_dialog_button_padding_left" android:paddingTop="@dimen/myui_dialog_button_padding_top" android:paddingRight="@dimen/myui_dialog_button_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layoutDirection="locale" android:paddingStart="@dimen/myui_dialog_button_padding_left" android:paddingEnd="@dimen/myui_dialog_button_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@android:id/button2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="?myuiButtonBarNegativeButtonStyle" />
+    <Button android:id="@android:id/button1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip" style="?myuiButtonBarPositiveButtonStyle" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/section_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/section_mark" android:layout_alignTop="@id/permission_title" android:layout_alignBottom="@id/permission_title" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="@style/CtaDialogMessageTextStyle" android:textColor="?myui_color_on_surface" android:id="@id/permission_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/section_mark" android:layout_alignEnd="@id/section_mark" style="@style/CtaDialogMessageMediumFont" />
+    <TextView android:textAppearance="@style/CtaDialogMessageTextStyle" android:textColor="@color/cta_dialog_message_text_color1" android:id="@id/permission_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/permission_title" android:layout_alignStart="@id/permission_title" android:layout_alignEnd="@id/permission_title" />
+</RelativeLayout>

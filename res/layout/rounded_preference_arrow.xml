@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:activatedBackgroundIndicator" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/icon_frame" android:paddingTop="@dimen/settings_category_arrow_icon_padding_horizontal" android:paddingBottom="@dimen/settings_category_arrow_icon_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/settings_category_minimum_width" android:paddingStart="0.0dip" android:paddingEnd="@dimen/settings_category_arrow_icon_padding_end">
+        <ImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/settings_category_arrow_icon_size" android:maxHeight="@dimen/settings_category_arrow_icon_size" />
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="@dimen/settings_category_arrow_text_padding" android:paddingBottom="@dimen/settings_category_arrow_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?textAppearanceListItem" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="20" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+    </RelativeLayout>
+    <ImageView android:id="@id/arrow" android:layout_width="@dimen/settings_category_arrow_size" android:layout_height="@dimen/settings_category_arrow_size" android:src="@drawable/arrow_forward" android:paddingStart="@dimen/settings_category_arrow_padding" app:tint="@color/settings_preference_summary" />
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/settings_category_arrow_widget_padding" />
+</LinearLayout>

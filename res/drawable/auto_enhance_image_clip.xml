@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip android:gravity="start" android:drawable="@drawable/example_ae_enhanced" android:clipOrientation="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

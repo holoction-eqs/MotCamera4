@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.camera.ui.controls_2020.settings.preferences.UpdateModelSwitchComponent android:icon="@drawable/ic_gesture_capture_on" android:title="@string/main_setting_auto_capture_gesture" android:key="@string/settings_list_ai_gesture_capture_key" android:summary="@string/main_setting_auto_capture_gesture_summary" />
+    <com.motorola.camera.ui.controls_2020.settings.preferences.generic.RoundedSwitchPreference android:icon="@drawable/ic_auto_smile_capture_on" android:title="@string/main_setting_auto_capture_smile" android:key="@string/settings_list_ai_smile_capture_key" android:summary="@string/main_setting_auto_capture_smile_summary" />
+    <com.motorola.camera.ui.controls_2020.settings.preferences.generic.RoundedSwitchPreference android:icon="@drawable/ic_tap_anywhere_on" android:title="@string/main_setting_tap_anywhere" android:key="@string/settings_list_capture_settings_tap_anywhere_key" android:summary="@string/main_setting_tap_anywhere_summary" />
+    <com.motorola.camera.ui.controls_2020.settings.preferences.generic.RoundedSwitchPreference android:icon="@drawable/smart_composition" android:title="@string/main_setting_rule_of_thirds_composition" android:key="@string/settings_list_ai_smart_composition_key" android:summary="@string/main_setting_smart_composition_summary" />
+</PreferenceScreen>

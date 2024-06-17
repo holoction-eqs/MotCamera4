@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/controls" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/camera_controls_2020" />
+    <ViewStub android:id="@id/zoom_bar_stub" android:layout="@layout/zoom_toggle_bar_button" android:layout_width="@dimen/zoom_button_size" android:layout_height="@dimen/zoom_button_size" android:layout_marginBottom="@dimen/zoom_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.motorola.camera.ui.controls_2020.settings.preferences.generic.SummaryPreference android:layout="@layout/rounded_preference_arrow" android:title="@string/main_setting_help_ui" android:key="@string/settings_list_about_help_key" android:fragment="com.motorola.camera.ui.controls_2020.settings.fragment.HelpPreferencesFragment" app:iconSpaceReserved="false" />
+    <com.motorola.camera.ui.controls_2020.settings.preferences.LicensePreference android:layout="@layout/rounded_preference_arrow" android:title="@string/main_setting_licenses" android:key="@string/settings_list_about_license_key" app:iconSpaceReserved="false" />
+    <com.motorola.camera.ui.controls_2020.settings.preferences.CamVersionPreference android:selectable="false" android:key="@string/settings_list_about_camera_version_key" app:iconSpaceReserved="false" />
+</PreferenceScreen>

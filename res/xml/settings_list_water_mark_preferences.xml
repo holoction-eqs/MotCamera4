@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/rounded_preference_title" android:title="@string/watermark_preview" app:iconSpaceReserved="false">
+        <com.motorola.camera.ui.controls_2020.settings.preferences.WaterMarkPreviewPreference android:layout="@layout/settings_picture_preview" android:key="@string/settings_list_water_mark_preview_key" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false">
+        <SwitchPreferenceCompat android:title="@string/watermark_timestamp" android:key="@string/settings_list_water_mark_timestamp_key" android:summary="@string/watermark_timestamp_sub" app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat android:title="@string/watermark_device_watermark" android:key="@string/settings_list_water_mark_signature_enable_key" app:iconSpaceReserved="false" />
+        <com.motorola.camera.ui.controls_2020.settings.preferences.WaterMarkEditPreference android:layout="@layout/settings_text_editor" android:key="@string/settings_list_water_mark_editor_key" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

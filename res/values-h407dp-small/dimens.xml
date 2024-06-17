@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_size">56.0dip</dimen>
+    <dimen name="capture_bar_shutter_cli_padding">102.0dip</dimen>
+    <dimen name="filter_text_margin_bottom">26.0dip</dimen>
+    <dimen name="filter_toggle_margin_bottom">300.0dip</dimen>
+    <dimen name="indicator_bar_margin_start">18.0dip</dimen>
+    <dimen name="modes_menu_icon_margin_top">26.0dip</dimen>
+    <dimen name="modes_menu_icon_size">45.0dip</dimen>
+    <dimen name="modes_menu_item_size">142.0dip</dimen>
+    <dimen name="modes_menu_item_spacing">10.0dip</dimen>
+    <dimen name="modes_menu_mode_pill_min_height">56.0dip</dimen>
+    <dimen name="modes_menu_mode_pill_padding_start">12.0dip</dimen>
+    <dimen name="modes_menu_mode_pill_padding_vertical">9.0dip</dimen>
+    <dimen name="toggle_bar_margin">20.0dip</dimen>
+    <dimen name="zoom_toggle_margin_bottom">70.0dip</dimen>
+</resources>

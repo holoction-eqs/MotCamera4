@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_on_background">@color/white</color>
+    <color name="cta_dialog_background_color">@android:color/system_neutral1_1000</color>
+    <color name="cta_dialog_message_link_color">@android:color/system_accent1_200</color>
+    <color name="cta_dialog_message_text_color1">@android:color/system_neutral1_400</color>
+    <color name="cta_dialog_message_text_color2">@android:color/system_neutral1_500</color>
+    <color name="cta_dialog_title_color">@android:color/system_neutral1_0</color>
+    <color name="myui_dialog_message_color">@android:color/system_neutral2_200</color>
+    <color name="myui_dialog_title_color">@android:color/system_neutral1_50</color>
+    <color name="settings_background">@color/black</color>
+    <color name="settings_button_text">@color/accent2_lighter</color>
+    <color name="settings_color_primary">@color/accent2_lighter</color>
+    <color name="settings_color_secondary">@color/accent2_darker</color>
+    <color name="settings_preference_background">@color/light_blue_gray</color>
+    <color name="settings_preference_background_ripple">@color/neutral1_darker</color>
+    <color name="settings_preference_summary">@color/neutral1_lighter</color>
+    <color name="settings_radio_button_active">@color/primary_main</color>
+    <color name="settings_toggle_thumb_disabled">@color/neutral1_light</color>
+    <color name="settings_toggle_track_disabled">@color/neutral1_darker</color>
+    <color name="settings_toggle_track_enabled">@color/accent2_dark</color>
+    <color name="settings_viewpager_indicator_active">@color/accent2_lighter</color>
+    <color name="settings_viewpager_indicator_inactive">@color/accent2_lighter_50</color>
+    <color name="settings_watermark_signature_disabled">@color/nevada_gray</color>
+    <color name="settings_watermark_signature_enabled">@color/stone_gray</color>
+    <color name="tutorial_background_color">#ff3c3c3c</color>
+    <color name="tutorial_button">@color/secondary_main</color>
+    <color name="tutorial_content_text">@color/white</color>
+    <color name="tutorial_content_title">@color/secondary_main</color>
+</resources>

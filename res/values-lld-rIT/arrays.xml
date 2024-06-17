@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter_names">
+        <item>Löm naturala</item>
+        <item>Romantich</item>
+        <item>Film</item>
+        <item>Achité</item>
+        <item>Da some</item>
+        <item>Che dá energia</item>
+        <item>Frëit</item>
+        <item>Or scür</item>
+        <item>Golus</item>
+        <item>Cyberpunk</item>
+        <item>Jonëza</item>
+        <item>"Tert d'altonn"</item>
+        <item>Blanch y fosch classich</item>
+        <item>Blanch y Fosch animé</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Modalité Fotografia ativa</item>
+        <item>Modalité Video ativa</item>
+        <item>Modalité Alza fora n corú por i videos ativada</item>
+        <item>Modalité Azeleradú ativa</item>
+        <item>Modalité Intardiadú ativada</item>
+        <item>Modalité Retrat ativa</item>
+        <item>Modalité Alza fora n corú ativada</item>
+        <item>Modalité Edl de Nöt ativa</item>
+        <item>La modalité Selfies de grup é ativa</item>
+        <item>Modalité Filter dal vi ativa</item>
+        <item>Modalité Cabina da fá fotografies ativa</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Stlü la Metüda a füch automatica</item>
+        <item>Stlü Avaliamënt dl blanch</item>
+        <item>"Stlü Tëmp d'esposiziun"</item>
+        <item>Stlü ISO</item>
+        <item>"Stlü la Compensaziun dl'esposiziun"</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Seletur dla Metüda a füch automatica</item>
+        <item>Seletur da balanzé le blanch</item>
+        <item>"Seleziun dl tëmp d'esposiziun"</item>
+        <item>Seletur ISO</item>
+        <item>"Selezionadú Compensaziun dl'esposiziun"</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Istruziuns por la modalité Retrat</item>
+        <item>Istruziuns por la modalité Movimentadú</item>
+        <item>Istruziuns por la modalité Alza fora n corú</item>
+        <item>Istruziuns por videos cun la modalité Alza fora n corú</item>
+        <item>Istruziuns por la modalité Taia fora</item>
+        <item>Istruziuns por Ultra-Res</item>
+        <item>Istruziuns por Fotografies macro</item>
+    </string-array>
+</resources>
